@@ -1,20 +1,7 @@
-# collab
-			tugas 1
-| Perintah/Fungsi			          | Fungsi		                                                                
-| --------------------------- | ------------------------------------------------------------------------- |
-| git init                    | Membuat repository Git baru di direktori lokal.                           |
-| git clone <url>             | Mengunduh (mengkloning) repository dari GitHub ke lokal.                  |
-| git status                  | Menampilkan status file di direktori kerja (modified, staged, untracked). |
-| git add <file>              | Menambahkan file ke staging area.                                         |
-| git add .                   | Menambahkan semua file yang berubah ke staging area.                      |
-| git commit -m "pesan"       | Menyimpan perubahan ke repository lokal dengan pesan commit.              |
-| git push                    | Mengirim perubahan dari lokal ke repository di GitHub.                    |
-| git pull                    | Mengambil dan menggabungkan perubahan terbaru dari GitHub ke lokal.       |
-| git fetch                   | Mengambil perubahan terbaru dari GitHub tanpa menggabungkannya.           |
-| git merge <branch>          | Menggabungkan branch tertentu ke branch yang sedang aktif.                |
-| git branch                  | Menampilkan daftar branch yang ada.                                       |
-| git branch <nama>           | Membuat branch baru.                                                      |
-| git checkout <branch>       | Berpindah ke branch lain.                                                 |
-| git remote add origin <url> | Menghubungkan repo lokal dengan repo GitHub.                              |
-| git log                     | Menampilkan riwayat commit.                                               |
-| git config                  | Mengatur konfigurasi Git seperti username dan email.                      |
+ABSTRAK
+Dalam pengembangan web modern, tata letak halaman yang fleksibel dan responsif sangat penting untuk memberikan pengalaman pengguna yang optimal. CSS Flexbox (Flexible Box Layout) merupakan salah satu solusi layout modern dalam CSS3 yang memungkinkan pengembang menyusun elemen dengan lebih efisien, terutama dalam satu dimensi. Artikel ini membahas konsep dasar Flexbox, manfaat penggunaannya, serta implementasi melalui contoh kode. Diharapkan pembaca dapat memahami dan mengaplikasikan Flexbox dalam pengembangan antarmuka CSS yang memungkinkan pengguna untuk merancang tampilan halaman web dengan cara yang lebih responsif dan fleksibel. Flexbox dirancang dengan cara yang menyenangkan dan interaktif, yang membuat pemula yang inigi belajar tentang Flexbox tanpa harus membaca dokumentasi CSS yang kaku. Flexbox merupakan modul baru dan relevan untuk programmer pemula yang ingin mengembangkan pemrograman web
+
+PENDAHULUAN
+      Seiring berkembangnya teknologi web, kebutuhan akan desain yang responsif menjadi semakin penting. Desain responsif memungkinkan antarmuka menyesuaikan dengan berbagai ukuran layar perangkat. Salah satu teknik yang sering digunakan adalah CSS Flexbox. Flexbox mempermudah pengaturan elemen dalam satu arah (horizontal atau vertikal) tanpa perlu menggunakan float atau positioning yang rumit. Oleh karena itu, pemahaman terhadap Flexbox sangat penting bagi pengembang web masa kini.
+      Cascading Style Sheets (CSS) terus berkembang untuk memenuhi kebutuhan tersebut. Salah satu perkembangan terbaru ini adalah penambahan Modul Desain Kotak CSS Flexible, atau flexbox. Flexbox adalah model layout satu dimensi dalam CSS yang dimaksudkan untuk memfasilitasi perancangan tata letak elemen HTML secara fleksibel dan efisien. Berbeda dengan model layout tradisional seperti float, table, atau inline-block, Flexbox menawarkan kontrol yang lebih baik terhadap perataan, jarak, dan urutan elemen dalam satu baris atau kolom, yang menjadikannya pilihan yang sangat baik untuk menyusun elemen dinamis seperti navigasi, kartu konten, atau elemen lainnya. 
+         Modul mode penulisan CSS mendefinisikan bagaimana teks dapat ditulis secara horizontal, kiri ke kanan dan kanan ke kiri, dan vertikal, dari atas ke bawah. Ini penting untuk internasionalisasi dan terjemahan, tetapi fitur ini juga dapat digunakan untuk desain kreatif. Seiring berkembangnya teknologi web, kebutuhan akan desain yang responsif menjadi semakin penting. Desain responsif memungkinkan antarmuka menyesuaikan dengan berbagai ukuran layar perangkat. Salah satu teknik yang sering digunakan adalah CSS Flexbox. Flexbox mempermudah pengaturan elemen dalam satu arah (horizontal atau vertikal) tanpa perlu menggunakan float atau positioning yang rumit. Oleh karena itu, pemahaman terhadap Flexbox sangat penting bagi pengembang web masa kini.
