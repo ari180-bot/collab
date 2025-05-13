@@ -1,4 +1,4 @@
-# 🌀 Tailwind CSS dan Implementasinya
+# 🌐 Tailwind CSS dan Implementasinya
 
 ## 📌 Abstrak
 
@@ -58,7 +58,7 @@ npx tailwindcss -i ./input.css -o ./dist/output.css --watch
 
 ---
 
-## 🧹 Struktur Folder
+## 🧾 Struktur Folder
 
 ```
 tailwind-project/
@@ -71,13 +71,60 @@ tailwind-project/
 
 ---
 
-## 💡 Contoh Implementasi
+## 💡 Contoh Implementasi Lengkap
 
-Contoh implementasi akan ditulis secara terpisah di folder `code/` agar artikel tetap bersih.
+Berikut adalah contoh struktur file HTML yang sudah menggunakan Tailwind CSS secara lengkap:
+
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contoh Tailwind</title>
+  <link href="dist/output.css" rel="stylesheet">
+  <style>
+    /* Tailwind CSS akan di-generate di file dist/output.css */
+    /* Tapi di bawah ini kita masukkan struktur untuk kebutuhan dokumentasi */
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+  </style>
+</head>
+<body class="bg-gray-100 p-6 font-sans">
+
+  <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+    <div class="md:flex">
+      <div class="md:shrink-0">
+        <img class="h-48 w-full object-cover md:h-full md:w-48" src="https://source.unsplash.com/300x200/?nature" alt="Contoh Gambar" />
+      </div>
+      <div class="p-8">
+        <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Contoh Tailwind</div>
+        <p class="mt-2 text-gray-500">Ini adalah contoh implementasi Tailwind CSS untuk membuat card yang modern dan responsif.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+```
+
+Dan berikut konfigurasi `tailwind.config.js`:
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
 
 ---
 
-## 📟 Penutup
+## 🧾 Penutup
 
 Tailwind CSS memberikan kebebasan dan efisiensi bagi developer untuk membangun UI tanpa perlu menulis banyak kode CSS. Dengan pendekatan utility-first, developer bisa bekerja lebih cepat, lebih rapi, dan hasilnya tetap modern serta responsif.
 
