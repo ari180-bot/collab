@@ -1,1 +1,16 @@
+🧩 CSS Grid dan Implementasinya
+📌 Abstrak
+CSS Grid adalah sistem layout dua dimensi dalam CSS yang memungkinkan pengembang membangun antarmuka web yang kompleks,
+fleksibel, dan responsif dengan efisiensi tinggi.
+Tidak seperti teknik lama seperti float atau Flexbox (yang bersifat satu dimensi),
+CSS Grid memberikan kontrol penuh atasbaris dan kolom secara simultan.
+Artikel ini mengupas pengertian CSS Grid, fitur-fiturnya, keunggulan,
+cara implementasi, serta contoh penggunaan nyata dalam proyek web modern.
+
+🔍 Pendahuluan
+Dalam pengembangan antarmuka web, penataan elemen menjadi tantangan utama. Sebelum adanya CSS Grid,
+teknik seperti Flexbox, float, dan positioning sering digunakan, namun memiliki keterbatasan dalam struktur dua dimensi.
+CSS Grid hadir sebagai solusi yang powerful untuk menyusun elemen dalam baris dan kolom dengan lebih sederhana 
+dan terstruktur.
+
 
