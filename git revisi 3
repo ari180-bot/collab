@@ -1,0 +1,40 @@
+1. Pendahuluan
+Dalam era pengembangan web yang cepat, efisiensi dan konsistensi dalam menulis kode front-end menjadi sangat penting. Tailwind CSS hadir sebagai solusi framework CSS modern yang memberikan kemudahan bagi developer dalam membuat UI yang dapat disesuaikan tanpa harus menulis CSS dari awal. Berbeda dengan framework seperti Bootstrap yang mengandalkan komponen siap pakai, Tailwind memberi kebebasan penuh dengan pendekatan utility-first, di mana kelas-kelas kecil digunakan untuk membangun elemen antarmuka.
+2. Konsep Dasar Tailwind CSS
+Tailwind CSS berfokus pada:
+- Utility-First: Setiap kelas mewakili satu properti CSS, seperti text-center, bg-blue-500, atau mt-4.
+- Atomic CSS: Kode CSS ditulis dalam bentuk kelas-kelas kecil yang independen dan reusable.
+- Responsive Design: Tailwind mempermudah pembuatan tampilan responsif dengan breakpoint seperti sm:, md:, lg:, dan xl:.
+- Customisasi Tinggi: Konfigurasi pada tailwind.config.js memungkinkan developer menyesuaikan tema, warna, font, hingga plugin.
+3. Instalasi dan Konfigurasi
+3.1 Instalasi dengan npm
+npm install -D tailwindcss
+npx tailwindcss init
+3.2 Konfigurasi file tailwind.config.js
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+3.3 Menambahkan Tailwind ke file CSS
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+Kemudian build dengan Tailwind CLI:
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+4. Implementasi Tailwind CSS
+4.1 Struktur HTML
+<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+  <div class="md:flex">
+    <div class="md:shrink-0">
+      <img class="h-48 w-full object-cover md:h-full md:w-48" src="/img/sample.jpg" alt="Sample">
+    </div>
+    <div class="p-8">
+      <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Contoh Tailwind</div>
+      <p class="mt-2 text-gray-500">Ini adalah contoh implementasi sederhana menggunakan Tailwind CSS.</p>
+    </div>
+  </div>
+</div>
+//css-tricks.com

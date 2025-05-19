@@ -1,0 +1,6 @@
+                                                              #PENDAHULUAN
+dalam pengembangan web modren tata letak loyout yang responsif dan fkeksibel sangat penting untuk memberikan pengalaman pengguna yang optimal di berbagai perangkat,
+muali dari desktop hingga ponsel pintar.CSS menyediakan berbagai metode untuk mengatur layout,dan salah satu metode yang paling populer dan efiseien adalah flexbox
+flexbox dirancang untuk menyederhanakan penyusunan elemen dalam satu dimensi,baik secara horizontal maupun vertikal dengann menggunakan flexbox pengngembangan web 
+dapat di atur posisi jarak,danukuran elemen dengan lebih mudah tanpa harus bergantung pada float atau pada postioning yang rumit.Keunggulan utama flexbox terletak pada 
+fleksibelnya dalam menghadapi perubahan ukuran tampilan,senghingga sangat cocok digunakan untuk desain web responsif  
