@@ -1,0 +1,44 @@
+/* Custom styles for uas_travel_minimal */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    background-color: #007bff; /* Primary blue */
+    padding: 1rem;
+}
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-text {
+    color: white;
+}
+.btn-outline-light {
+    color: white;
+    border-color: white;
+}
+.btn-outline-light:hover {
+    background-color: white;
+    color: #007bff;
+}
+
+.card-img-top {
+    height: 180px;
+    object-fit: cover;
+}
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+.admin-table img.destination-thumb {
+    width: 60px;
+    height: auto;
+    display: block;
+}
